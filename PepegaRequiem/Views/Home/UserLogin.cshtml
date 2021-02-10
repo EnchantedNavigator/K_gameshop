@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "";
+}
+<section>
+        @if (User.Identity.IsAuthenticated)
+        {
+        
+            @ViewBag.UserName 
+            @Html.ActionLink(" Выход", "Logoff", "Account")
+        }
+        else
+        {
+            @Html.Label(" Вы не авторизированы")
+            @Html.ActionLink(" Логин", "Login", "Account")
+        }
+
+        @Html.ActionLink(" Регистрация", "Register", "Account")
+</section>

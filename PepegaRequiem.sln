@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepegaRequiem", "PepegaRequiem\PepegaRequiem.csproj", "{70AA46CE-4CB7-4C0D-B3AB-B0DC39BA41F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepegaRequiem.Tests", "PepegaRequiem.Tests\PepegaRequiem.Tests.csproj", "{33C290CA-34D1-4C1A-A9CC-09F48B7D23FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70AA46CE-4CB7-4C0D-B3AB-B0DC39BA41F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AA46CE-4CB7-4C0D-B3AB-B0DC39BA41F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AA46CE-4CB7-4C0D-B3AB-B0DC39BA41F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AA46CE-4CB7-4C0D-B3AB-B0DC39BA41F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C290CA-34D1-4C1A-A9CC-09F48B7D23FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C290CA-34D1-4C1A-A9CC-09F48B7D23FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C290CA-34D1-4C1A-A9CC-09F48B7D23FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C290CA-34D1-4C1A-A9CC-09F48B7D23FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2116FCF3-764E-4402-B8A0-2BA2CBD97ECB}
+	EndGlobalSection
+EndGlobal

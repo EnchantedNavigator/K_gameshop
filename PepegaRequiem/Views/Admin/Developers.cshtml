@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PepegaRequiem.Models.Developer>
+
+@{
+    ViewBag.Title = "Developers";
+}
+
+<h2>Developers</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddDeveloper")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Image)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditDeveloper", new { id=item.Id }) |
+            @Html.ActionLink("Details", "DetailsDevelopers", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "DeleteDeveloper", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

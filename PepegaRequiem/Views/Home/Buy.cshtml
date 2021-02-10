@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+    <h3>Purchase</h3>
+    <br />
+    <form method="post" action="">
+        <input type="hidden" name="GameId" value="@ViewBag.Id" />
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>UserName </td>
+                    <td><input type="text" name="User" /></td>
+                </tr>
+                <tr>
+                    <td>Email </td>
+                    <td><input type="text" name="Email" /></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="submit" value="Confirm" /> </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </form>

@@ -1,0 +1,96 @@
+﻿
+a:link, a:visited {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: darkred;
+}
+
+a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: gold;
+    margin-right: 20px;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+a img:hover {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+ 
+li {
+}
+
+ul {
+    margin: 0px 0px 0px 10px;
+}
+
+input {
+    border: 2px solid green;
+}
+
+
+
+
+
+nav {
+    display: inline-block;
+}
+
+    nav a {
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        vertical-align: middle;
+    }
+
+
+body {
+    overflow-x: hidden;
+    background-color: #a7cbcf;
+    font-size: 18px;
+    font: normal small-caps 18px/20px fantasy;
+    color: white;
+    height: : 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px), radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px), radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px), radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    background-repeat: repeat,repeat,repeat,repeat;
+    background-attachment: scroll,scroll,scroll,scroll;
+}
+
+i, ol {
+    font-size: 18px;
+    font-style: italic;
+}
+
+p {
+    margin: 0px;
+    text-indent: 30px;
+}
+
+h2 {
+}
+
+hr {
+    vertical-align: top;
+}
+

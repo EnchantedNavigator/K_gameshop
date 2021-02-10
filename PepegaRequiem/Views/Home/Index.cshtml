@@ -1,0 +1,62 @@
+﻿
+@model PagedList.IPagedList<PepegaRequiem.Models.Game>
+
+@using PagedList.Mvc;
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<div class="Filter">
+    <form method="get" action="IndexF">
+        <div class="form-inline">
+            <label class="control-label">Developer : </label>
+            @Html.DropDownList("developer", ViewBag.Developers as SelectList,
+        htmlAttributes: new { @class = "form-control" })
+
+            <label class="control-label">Category : </label>
+            @Html.DropDownList("category", ViewBag.Categories as SelectList,
+        htmlAttributes: new { @class = "form-control" })
+            <input type="submit" value="Filter" class="btn btn-default" />
+        </div>
+    </form>
+</div>
+<div>
+    <h3>Games</h3>
+    <br />
+    
+        @{
+            foreach (var game in Model)
+            {
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="Card">
+                        <div class="caption">
+                                <h3><a href="/Home/DetailsGames/@game.GameId">@game.Name</a></h3>
+                                <p class="price">@game.Price руб.</p>
+                                <a href="/Home/DetailsCategories/@game.CategoryID">@game.Category.Name</a>
+                                <p>
+                                    <a href="/Home/DetailsDevelopers/@game.DeveloperID">@game.Developer.Name</a>
+                                <p>
+                                    <div>
+                                        <a href="/Home/DetailsGames/@game.GameId">
+                                            <img src="~/Pictures/Games/@game.Image"
+                                                 alt="game">
+                                        </a>
+                                    </div>
+                                    <a href="/Home/Buy/@game.GameId">Buy</a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+        Страница @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) из @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("IndexP", new { page }))
+
+    </div>

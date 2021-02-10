@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap.css" />
+
+    <link rel="stylesheet" type="text/css" href="~/Content/style.css">
+    <!--
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />-->
+    <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    <link href="/css/starter-template.css" rel="stylesheet">
+        -->
+
+    <title>
+
+    </title>
+</head>
+<body>
+    <nav class="navbarPepega">
+            <div >
+                <div class="nav1">
+                    @Html.ActionLink("На Главную", "Index", "Home")
+                </div>
+            </div>
+            <div class="nav1">
+                @Html.ActionLink("AdminPanel", "Index", "Admin")
+            </div>
+            <div class="navusername">
+                @{Html.RenderAction("UserLogin", "Home");}
+            </div>
+    </nav>
+            @RenderBody()
+</body>
+</html>

@@ -1,0 +1,24 @@
+namespace PepegaRequiem.Migrations
+{
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<PepegaRequiem.Models.PepegaContext>
+    {
+        public Configuration()
+        {
+            AutomaticMigrationsEnabled = true;
+            ContextKey = "PepegaRequiem.Models.PepegaContext";
+        }
+
+        protected override void Seed(PepegaRequiem.Models.PepegaContext context)
+        {
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data.
+        }
+    }
+}

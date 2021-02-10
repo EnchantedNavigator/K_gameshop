@@ -1,0 +1,2 @@
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem.Tests\Debug\PepegaRequiem.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem.Tests\Debug\PepegaRequiem.Tests.csproj.CoreCompileInputs.cache

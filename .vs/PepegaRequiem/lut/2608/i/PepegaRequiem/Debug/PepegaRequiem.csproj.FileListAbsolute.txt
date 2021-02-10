@@ -1,0 +1,8 @@
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\b\PepegaRequiem\bin\ApplicationInsights.config
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\b\PepegaRequiem\bin\PepegaRequiem.dll.config
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\b\PepegaRequiem\bin\PepegaRequiem.dll
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\b\PepegaRequiem\bin\PepegaRequiem.pdb
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem\Debug\PepegaRequiem.csprojResolveAssemblyReference.cache
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem\Debug\PepegaRequiem.csproj.CoreCompileInputs.cache
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem\Debug\PepegaRequiem.dll
+C:\Users\Navigator\source\repos\PepegaRequiem\.vs\PepegaRequiem\lut\0\i\PepegaRequiem\Debug\PepegaRequiem.pdb
